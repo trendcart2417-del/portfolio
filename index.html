@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monika Naznin Him | Digital Marketer & Designer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        brandBlue: '#0056b3',
+                        brandSky: '#00a8e8',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); }
+        .dark .glass { background: rgba(15, 23, 42, 0.8); }
+        .text-gradient { background: linear-gradient(to right, #0056b3, #00a8e8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300">
+
+    <header class="fixed w-full top-0 z-50 border-b border-slate-200 dark:border-slate-800 glass">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-extrabold tracking-tighter text-brandBlue dark:text-brandSky">
+                MONIKA<span class="text-slate-400 font-light">.</span>
+            </a>
+            <div class="hidden lg:flex items-center space-x-8 font-semibold text-sm uppercase">
+                <a href="#about" class="hover:text-brandSky transition">About</a>
+                <a href="#services" class="hover:text-brandSky transition">Services</a>
+                <a href="#portfolio" class="hover:text-brandSky transition">Portfolio</a>
+                <a href="#skills" class="hover:text-brandSky transition">Skills</a>
+                <a href="#contact" class="hover:text-brandSky transition">Contact</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <button id="theme-toggle" class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center hover:ring-2 ring-brandSky transition">
+                    <i id="theme-icon" class="fas fa-moon text-brandBlue dark:text-brandSky"></i>
+                </button>
+                <a href="#contact" class="hidden sm:block bg-brandBlue text-white px-5 py-2 rounded-lg text-sm font-bold">Hire Me</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="min-h-screen flex items-center pt-24 px-6 relative overflow-hidden">
+        <div class="absolute -top-24 -left-24 w-96 h-96 bg-brandSky/10 rounded-full blur-3xl"></div>
+        <div class="container mx-auto grid lg:grid-cols-2 gap-12 items-center">
+            <div class="order-2 lg:order-1">
+                <h2 class="text-brandSky font-bold uppercase tracking-widest text-sm mb-4">Digital Marketing & Graphic Design</h2>
+                <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
+                    Making Brands <span class="text-gradient">Iconic</span> & Scalable.
+                </h1>
+                <p class="text-lg text-slate-600 dark:text-slate-400 mb-8 max-w-lg">
+                    I am <b>Monika Naznin Him</b>. I bridge the gap between creative design and data-driven marketing to help businesses dominate their niche.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#portfolio" class="bg-brandBlue text-white px-8 py-4 rounded-xl font-bold shadow-lg shadow-brandBlue/30 hover:bg-brandSky transition">View Portfolio</a>
+                    <div class="flex items-center gap-4 px-4">
+                        <div class="flex -space-x-3">
+                            <div class="w-10 h-10 rounded-full border-2 border-white bg-slate-200"></div>
+                            <div class="w-10 h-10 rounded-full border-2 border-white bg-slate-300"></div>
+                            <div class="w-10 h-10 rounded-full border-2 border-white bg-slate-400"></div>
+                        </div>
+                        <span class="text-sm font-semibold">150+ Happy Clients</span>
+                    </div>
+                </div>
+            </div>
+            <div class="order-1 lg:order-2 flex justify-center relative">
+                <div class="relative z-10 w-full max-w-md aspect-square bg-slate-200 dark:bg-slate-800 rounded-3xl overflow-hidden shadow-2xl">
+                    <img src="https://via.placeholder.com/600x600" alt="Monika Naznin Him" class="w-full h-full object-cover">
+                </div>
+                <div class="absolute -bottom-6 -right-6 w-48 h-48 bg-brandBlue/20 rounded-full blur-2xl"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 px-6 bg-slate-50 dark:bg-slate-900/50">
+        <div class="container mx-auto max-w-5xl">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-white dark:bg-slate-800 p-8 rounded-3xl border border-slate-100 dark:border-slate-700 shadow-sm">
+                        <h4 class="text-4xl font-extrabold text-brandBlue mb-2">05+</h4>
+                        <p class="text-sm font-bold uppercase text-slate-500">Years Experience</p>
+                    </div>
+                    <div class="bg-white dark:bg-slate-800 p-8 rounded-3xl border border-slate-100 dark:border-slate-700 shadow-sm mt-8">
+                        <h4 class="text-4xl font-extrabold text-brandSky mb-2">300+</h4>
+                        <p class="text-sm font-bold uppercase text-slate-500">Designs Created</p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-brandBlue font-bold mb-4">About Me</h3>
+                    <h2 class="text-4xl font-extrabold mb-6">Innovative Solutions for Modern Brands.</h2>
+                    <p class="text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">
+                        I specialize in creating visual stories that resonate with audiences. My dual expertise in marketing and design allows me to create assets that don't just look good—they convert.
+                    </p>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center gap-3 font-semibold"><i class="fas fa-check-circle text-brandSky"></i> Strategic Marketing Research</li>
+                        <li class="flex items-center gap-3 font-semibold"><i class="fas fa-check-circle text-brandSky"></i> High-End Graphic Production</li>
+                        <li class="flex items-center gap-3 font-semibold"><i class="fas fa-check-circle text-brandSky"></i> Brand Identity Systems</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 px-6">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-extrabold mb-4">How I Can Help</h2>
+                <div class="w-16 h-1.5 bg-brandSky mx-auto rounded-full"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-10 rounded-[2.5rem] bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:shadow-2xl transition-all group">
+                    <div class="w-14 h-14 bg-brandBlue/10 text-brandBlue rounded-2xl flex items-center justify-center text-xl mb-6 group-hover:bg-brandBlue group-hover:text-white transition">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Digital Marketing</h4>
+                    <p class="text-slate-500 text-sm">Full-funnel marketing campaigns including SEO, Social Media, and Lead Generation.</p>
+                </div>
+                <div class="p-10 rounded-[2.5rem] bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:shadow-2xl transition-all group shadow-xl shadow-brandBlue/5">
+                    <div class="w-14 h-14 bg-brandSky/10 text-brandSky rounded-2xl flex items-center justify-center text-xl mb-6 group-hover:bg-brandSky group-hover:text-white transition">
+                        <i class="fas fa-bezier-curve"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Graphic Design</h4>
+                    <p class="text-slate-500 text-sm">Visual identity design, social media assets, and print media that stands out.</p>
+                </div>
+                <div class="p-10 rounded-[2.5rem] bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700 hover:shadow-2xl transition-all group">
+                    <div class="w-14 h-14 bg-brandBlue/10 text-brandBlue rounded-2xl flex items-center justify-center text-xl mb-6 group-hover:bg-brandBlue group-hover:text-white transition">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Brand Strategy</h4>
+                    <p class="text-slate-500 text-sm">Developing a unique voice and positioning for your business in the digital world.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-24 px-6 bg-slate-900 text-white">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16">
+                <div>
+                    <h2 class="text-4xl font-extrabold mb-4 uppercase">Selected Works</h2>
+                    <p class="text-slate-400">A showcase of recent design and marketing triumphs.</p>
+                </div>
+                <div class="flex gap-6 mt-8 md:mt-0 font-bold text-xs tracking-widest uppercase">
+                    <button class="text-brandSky">All</button>
+                    <button class="text-slate-500 hover:text-white transition">Design</button>
+                    <button class="text-slate-500 hover:text-white transition">Marketing</button>
+                </div>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="group relative aspect-[4/5] overflow-hidden rounded-3xl bg-slate-800">
+                    <img src="https://via.placeholder.com/500x700" class="w-full h-full object-cover transition duration-500 group-hover:scale-110 opacity-80 group-hover:opacity-100">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent flex flex-col justify-end p-8 translate-y-4 group-hover:translate-y-0 transition duration-300">
+                        <span class="text-brandSky font-bold text-xs mb-2">Visual Branding</span>
+                        <h4 class="text-2xl font-bold">Eco-Tech Rebranding</h4>
+                    </div>
+                </div>
+                <div class="group relative aspect-[4/5] overflow-hidden rounded-3xl bg-slate-800">
+                    <img src="https://via.placeholder.com/500x700" class="w-full h-full object-cover transition duration-500 group-hover:scale-110 opacity-80 group-hover:opacity-100">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent flex flex-col justify-end p-8 translate-y-4 group-hover:translate-y-0 transition duration-300">
+                        <span class="text-brandSky font-bold text-xs mb-2">Social Media</span>
+                        <h4 class="text-2xl font-bold">Urban Fashion Campaign</h4>
+                    </div>
+                </div>
+                <div class="group relative aspect-[4/5] overflow-hidden rounded-3xl bg-slate-800">
+                    <img src="https://via.placeholder.com/500x700" class="w-full h-full object-cover transition duration-500 group-hover:scale-110 opacity-80 group-hover:opacity-100">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent flex flex-col justify-end p-8 translate-y-4 group-hover:translate-y-0 transition duration-300">
+                        <span class="text-brandSky font-bold text-xs mb-2">UI Design</span>
+                        <h4 class="text-2xl font-bold">Nexus Mobile App</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-24 px-6 bg-white dark:bg-slate-950">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-extrabold mb-16 text-center">Core Expertise</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="text-center p-8 bg-slate-50 dark:bg-slate-900 rounded-3xl">
+                    <i class="fab fa-adobe text-4xl text-brandBlue mb-4"></i>
+                    <h5 class="font-bold">Adobe Suite</h5>
+                    <p class="text-xs text-slate-500 mt-2">Photoshop, Illustrator, InDesign</p>
+                </div>
+                <div class="text-center p-8 bg-slate-50 dark:bg-slate-900 rounded-3xl">
+                    <i class="fas fa-bullhorn text-4xl text-brandSky mb-4"></i>
+                    <h5 class="font-bold">Ads Manager</h5>
+                    <p class="text-xs text-slate-500 mt-2">Facebook, Google & TikTok</p>
+                </div>
+                <div class="text-center p-8 bg-slate-50 dark:bg-slate-900 rounded-3xl">
+                    <i class="fas fa-code text-4xl text-brandBlue mb-4"></i>
+                    <h5 class="font-bold">Front-End</h5>
+                    <p class="text-xs text-slate-500 mt-2">HTML, CSS & Tailwind</p>
+                </div>
+                <div class="text-center p-8 bg-slate-50 dark:bg-slate-900 rounded-3xl">
+                    <i class="fas fa-magnifying-glass-chart text-4xl text-brandSky mb-4"></i>
+                    <h5 class="font-bold">SEO/Data</h5>
+                    <p class="text-xs text-slate-500 mt-2">Keyword Research & Analytics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 bg-slate-50 dark:bg-slate-900/50">
+        <div class="container mx-auto max-w-4xl text-center">
+            <i class="fas fa-quote-right text-5xl text-brandSky/20 mb-8"></i>
+            <h3 class="text-2xl md:text-3xl font-bold italic mb-10 leading-relaxed">
+                "Monika has a rare ability to understand the brand's vision and turn it into a high-converting digital asset. Her graphic design work is world-class and her marketing insights are always spot-on."
+            </h3>
+            <div class="flex flex-col items-center">
+                <div class="w-16 h-16 bg-slate-300 rounded-full mb-4"></div>
+                <h5 class="font-extrabold">Alex Rivera</h5>
+                <p class="text-slate-500 text-sm">Founder, Bloom Media</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 px-6">
+        <div class="container mx-auto max-w-6xl bg-brandBlue rounded-[3rem] p-12 text-white relative overflow-hidden">
+            <div class="absolute -top-12 -right-12 w-64 h-64 bg-brandSky/20 rounded-full blur-3xl"></div>
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-5xl font-extrabold mb-6">Let's Work Together</h2>
+                    <p class="text-blue-100 mb-10 text-lg">Ready to transform your brand? Fill out the form and I'll get back to you within 24 hours.</p>
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center"><i class="fas fa-envelope"></i></div>
+                            <span class="font-bold">hello@monikanaznin.com</span>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center"><i class="fab fa-linkedin-in"></i></div>
+                            <span class="font-bold">linkedin.com/in/monikanaznin</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="space-y-4">
+                    <input type="text" placeholder="Full Name" class="w-full p-5 rounded-2xl bg-white/10 border border-white/20 focus:bg-white/20 outline-none transition placeholder:text-blue-100 font-semibold">
+                    <input type="email" placeholder="Email Address" class="w-full p-5 rounded-2xl bg-white/10 border border-white/20 focus:bg-white/20 outline-none transition placeholder:text-blue-100 font-semibold">
+                    <textarea placeholder="Message" rows="4" class="w-full p-5 rounded-2xl bg-white/10 border border-white/20 focus:bg-white/20 outline-none transition placeholder:text-blue-100 font-semibold"></textarea>
+                    <button class="w-full py-5 bg-white text-brandBlue font-extrabold rounded-2xl hover:bg-brandSky hover:text-white transition shadow-xl">Send Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-slate-200 dark:border-slate-800">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-xl font-extrabold text-brandBlue dark:text-brandSky uppercase tracking-tighter">Monika.Him</div>
+            <p class="text-slate-500 text-sm text-center">© 2026 Monika Naznin Him. Developed with precision for excellence.</p>
+            <div class="flex gap-6">
+                <a href="#" class="text-slate-400 hover:text-brandSky transition text-xl"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-slate-400 hover:text-brandSky transition text-xl"><i class="fab fa-behance"></i></a>
+                <a href="#" class="text-slate-400 hover:text-brandSky transition text-xl"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = document.getElementById('theme-icon');
+        const html = document.documentElement;
+
+        // Toggle Function
+        themeToggle.addEventListener('click', () => {
+            html.classList.toggle('dark');
+            const isDark = html.classList.contains('dark');
+            themeIcon.className = isDark ? 'fas fa-sun' : 'fas fa-moon';
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        });
+
+        // Load Preference
+        if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            html.classList.add('dark');
+            themeIcon.className = 'fas fa-sun';
+        }
+    </script>
+</body>
+</html>
